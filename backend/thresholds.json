@@ -1,0 +1,5 @@
+{
+  "high_threshold": 0.935,
+  "medium_threshold": 0.199,
+  "tier_logic": "P(high) >= 0.935 → HIGH  |  0.199 <= P(high) < 0.935 → MEDIUM  |  P(high) < 0.199 → ROUTINE"
+}
